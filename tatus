@@ -1,0 +1,57 @@
+[33mcommit 3e413ff9dc22d5908d6e7fa3a67aed0f2edeb789[m
+Author: Jeremy Cohen <Jeremy Cohen>
+Date:   Sun Nov 5 20:26:34 2017 -0500
+
+    change fonts for jeremy index
+
+[1mdiff --git a/jtc/index.html b/jtc/index.html[m
+[1mindex 64ea68b..c64ac5a 100644[m
+[1m--- a/jtc/index.html[m
+[1m+++ b/jtc/index.html[m
+[36m@@ -9,7 +9,7 @@[m
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">[m
+ [m
+ 	<!-- Style -->[m
+[31m-	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>[m
+[32m+[m	[32m<link href='https://fonts.googleapis.com/css?family=Sumana&subset=latin,latin-ext' rel='stylesheet' type='text/css'>[m
+ 	<link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>[m
+ 	<link rel="stylesheet" href="style.css">[m
+ [m
+[36m@@ -19,7 +19,7 @@[m
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>[m
+ [m
+ 	<!-- Favicon -->[m
+[31m-	<link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.png"> [m
+[32m+[m	[32m<link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.png">[m
+ [m
+ 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">[m
+ </head>[m
+[36m@@ -77,7 +77,7 @@[m
+ 			</h2>[m
+ 		</div>[m
+ 		<div id="home">[m
+[31m-			<img src="1.jpg" id="homeImg">[m
+[32m+[m			[32m<img src="{{ site.baseurl }}/1.jpg" id="homeImg">[m
+ 		</div>[m
+ 		<div id="aboutH" align="center">[m
+ 			<h2>[m
+[36m@@ -134,4 +134,4 @@[m
+ </div>[m
+ [m
+ </body>[m
+[31m-</html>[m
+\ No newline at end of file[m
+[32m+[m[32m</html>[m
+[1mdiff --git a/jtc/style.css b/jtc/style.css[m
+[1mindex cf2789e..830b338 100644[m
+[1m--- a/jtc/style.css[m
+[1m+++ b/jtc/style.css[m
+[36m@@ -6,7 +6,7 @@[m [mhtml, body {[m
+ }[m
+ [m
+ h1, h2, h3, h4, h5 {[m
+[31m-	font-family: "Josefin Sans", sans-serif;[m
+[32m+[m	[32mfont-family: "Sumana", sans-serif;[m
+ }[m
+ [m
+ p {[m
